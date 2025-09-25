@@ -1,0 +1,18 @@
+#botao-inf{
+
+    width: auto;
+    height: 2rem;
+    
+    align-items: center;
+   justify-content: center;
+}
+#Botao-checkbox{
+
+    width: 20px;
+    height: 2rem;
+}
+.style-td{
+display: flex;
+    justify-content: center;
+    align-items: center;
+}

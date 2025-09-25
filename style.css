@@ -20,15 +20,21 @@
   }
   #Video-ford{
 
+
+
     text-align: center;
     margin-top: 1rem;
   }
+#container-cars{
 
+    text-align: center;
+}
 
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 5px 5px 10px gray;
 }
 
 
@@ -60,6 +66,7 @@ hr{
 p{
 
     text-align: center;
+   
 }
 footer{
 
@@ -77,4 +84,29 @@ footer{
 }
 #icon-footer{
     width: 35px;
+}
+#botao-inf{
+
+    width: auto;
+    height: 2rem;
+    
+    align-items: center;
+   justify-content: center;
+}
+#Botao-checkbox{
+
+    width: 20px;
+    height: 2rem;
+}
+.style-td{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+#container-cars{
+
+    display: flex;
+    justify-content: center;
 }
