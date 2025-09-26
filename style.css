@@ -1,4 +1,4 @@
-*{
+* {
     list-style: none;
     box-sizing: border-box;
     padding: 0;
@@ -7,30 +7,37 @@
     text-decoration: none;
 }
 
-#img1 { 
-    padding-top:1rem;
-    display: flex;
-    justify-content: center ;
-    align-items: center;  
-  }
+.conteudo {
+    padding-top: 1rem;
+}
 
-  #img-logo {
+#img1 {
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-logo {
 
     width: 10%;
-  }
-  #Video-ford{
+}
+
+#Video-ford {
 
 
 
     text-align: center;
     margin-top: 1rem;
-  }
-#container-cars{
+}
+
+#container-cars {
 
     text-align: center;
 }
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,32 +52,35 @@ header nav ul {
 }
 
 header nav ul li a {
-color: #1351d8; 
-font-weight: bold;
-font-style: normal;
-font-family: sans-serif;
+    color: #1351d8;
+    font-weight: bold;
+    font-style: normal;
+    font-family: sans-serif;
 }
 
 ul {
-     padding-right: 19rem;
-    display: flex ;
+    padding-right: 19rem;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-hr{
+
+hr {
 
     background-color: gray;
-    height: 1px; 
+    height: 1px;
     opacity: 0.3;
 }
-p{
+
+p {
 
     text-align: center;
-   
-}
-footer{
 
-    background-color:#1B357E;
+}
+
+footer {
+
+    background-color: #1B357E;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -80,33 +90,47 @@ footer{
     height: 3rem;
     border-radius: 0;
     border-style: none;
-    padding: 1rem; 
+    padding: 1rem;
 }
-#icon-footer{
+
+#icon-footer {
     width: 35px;
 }
-#botao-inf{
+
+#botao-inf {
 
     width: auto;
     height: 2rem;
-    
+
     align-items: center;
-   justify-content: center;
+    justify-content: center;
 }
-#Botao-checkbox{
+
+#Botao-checkbox {
 
     width: 20px;
     height: 2rem;
 }
-.style-td{
+
+.style-td {
+    font-family: bold;color: #1351d8;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    
+    padding-left: 1rem;
+
 }
-#container-cars{
+
+#container-cars {
 
     display: flex;
     justify-content: center;
+    align-items: center;
+    
+}
+@media screen and (min-width: 800px) {
+ {
+       margin: 1em 2em;
+   }
 }
