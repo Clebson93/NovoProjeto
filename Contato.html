@@ -2,66 +2,75 @@
 <html lang="pt-br">
 
 <head>
+    <!-- Metadados e link para o CSS -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="style.css">
-    
+    <!--:ícone da Ford na aba do navegador -->
+    <link rel="icon" type="image/png" href="./img/logo-ford-256.png">
+    <!-- Fontes externas Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Cabeçalho com logo e menu de navegação -->
     <header>
         <img id="img-logo" src="./img/logo-ford-256.png" alt="logo-ford-256">
         <nav>
             <ul>
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="./Lancamento.html">Lancamento</a></li>
+                <li><a href="./Lancamento.html">Lançamento</a></li>
                 <li><a href="./Contato.html">Contato</a></li>
             </ul>
         </nav>
         <div></div>
     </header>
+    <!-- Fim do cabeçalho -->
 
+    <!-- Conteúdo principal da página de contato -->
     <main>
-        <section class="conteudo">
-            <div id="img-contato">
+        <section class="contato-flex">
+            <!-- Imagem ilustrativa ao lado do formulário -->
+            <div class="img-contato">
                 <img src="./img/xls 2.2 diesel.jpg" alt="Novo Lancamento">
-
-
             </div>
-               <form action="" method="post">
-
-            <input type="text" placeholder="Digite seu Nome">
-            <br>
-            <input type="text" placeholder="Digite seu Email">
-            <br>
-            <input type="text" placeholder="Digite seu Numero">
-            <br>
-            <select name="" id="">
-                <option value="" selected disabled hidden>Tipo de Contato</option>
-                <option value="">Elogio</option>
-                <option value="">Reclamação</option>
-                <option value="">Solicitação</option>
-            </select>
-            <textarea name="" id="" placeholder="mensagem"></textarea>
-            <br>
-           <button>Enviar</button>
-           
+            <!-- Formulário de contato -->
+            <form action="" method="post" class="form-contato">
+                <h2 class="form-titulo">Fale Conosco</h2>
+                <input type="text" placeholder="Nome do usuário" class="input-contato" required>
+                <input type="email" placeholder="E-mail para contato" class="input-contato" required>
+                <input type="number" placeholder="Telefone" class="input-contato" required>
+                <select class="input-contato" required>
+                    <option value="" selected disabled hidden>Tipo do contato</option>
+                    <option value="elogio">Elogio</option>
+                    <option value="reclamacao">Reclamação</option>
+                    <option value="solicitacao">Solicitação</option>
+                </select>
+                <textarea class="input-contato" placeholder="Mensagem" required></textarea>
+                <button class="btn-contato">Enviar</button>
+            </form>
         </section>
     </main>
+    <!-- Fim do conteúdo principal -->
 
+    <!-- Rodapé com ícones de redes sociais e direitos autorais -->
     <footer>
         <div>
-
-            <a href="https://www.facebook.com/FordBrasil/?locale=pt_BR" target="_blank"><img id="icon-footer"
+            <!-- Ícones das redes sociais -->
+            <a href="https://www.facebook.com/FordBrasil/?locale=pt_BR" target="_blank"><img class="icon-footer"
                     src="./img/facebook-50.png" alt="Facebook"></a>
-            <a href="https://www.youtube.com/fordbrasil" target="_blank"><img id="icon-footer"
+            <a href="https://www.youtube.com/fordbrasil" target="_blank"><img class="icon-footer"
                     src="./img/youtube-squared-50.png" alt="YouTube"></a>
-
-            <a href="https://www.instagram.com/fordbrasil/" target="_blank"><img id="icon-footer"
+            <a href="https://www.instagram.com/fordbrasil/" target="_blank"><img class="icon-footer"
                     src="./img/instagram-logo-50.png" alt="Instagram"></a>
         </div>
+        <!-- Texto de direitos autorais -->
         <p style=" color: white;">&copy; 2025 Ford. Todos os direitos reservados.</p>
-        <img src="./img/ford-96.png" alt="">
+        <!-- Logo Ford no rodapé -->
+        <img src="./img/ford-96.png" alt="" style="width:60px;">
     </footer>
+    <!-- Fim do rodapé -->
 </body>

@@ -2,51 +2,67 @@
 <html lang="pt-br">
 
 <head>
+    <!-- Metadados e links de estilo -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ford</title>
+    <link rel="icon" type="image/png" href="./img/logo-ford-256.png">
     <link rel="stylesheet" href="style.css">
+    <!-- Fontes externas Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Cabeçalho do site com logo e menu de navegação -->
     <header>
         <img id="img-logo" src="./img/logo-ford-256.png" alt="logo-ford-256">
         <nav>
             <ul>
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="./Lancamento.html">Lancamento</a></li>
+                <li><a href="./Lancamento.html">Lançamento</a></li>
                 <li><a href="./Contato.html">Contato</a></li>
             </ul>
         </nav>
         <div></div>
     </header>
 
+    <!-- Conteúdo principal da página -->
     <main>
         <section class="conteudo-2">
-        <div id="img1">
-            <img src="./img/imagem_1.jpg" alt="Novo Lancamento">
-           
-                
-        </div>
-       
-        <p>Este é o novo lançamento da Ford. Conheça suas principais características <a href="Lancamento.html">aqui</a></p>
+            <!-- Imagem principal clicável -->
+            <div id="img1">
+                <a href="Lancamento.html">
+                    <img src="./img/imagem_1.jpg" alt="Novo Lancamento">
+                </a>
+            </div>
+            <!-- Fim da imagem principal -->
+            <br>
+            <!-- Texto informativo sobre o lançamento -->
+            <p>Este é o novo lançamento da Ford. Conheça suas principais características <a href="Lancamento.html"
+                    style="color: #857df3; text-decoration: underline;">aqui</a></p>
         </section>
     </main>
+    <!-- Fim do conteúdo principal -->
 
+    <!-- Rodapé do site -->
     <footer>
         <div>
-            
-            <a href="https://www.facebook.com/FordBrasil/?locale=pt_BR" target="_blank"><img id="icon-footer"
+            <!-- Ícones das redes sociais -->
+            <a href="https://www.facebook.com/FordBrasil/?locale=pt_BR" target="_blank"><img class="icon-footer"
                     src="./img/facebook-50.png" alt="Facebook"></a>
-            <a href="https://www.youtube.com/fordbrasil" target="_blank"><img id="icon-footer"
+            <a href="https://www.youtube.com/fordbrasil" target="_blank"><img class="icon-footer"
                     src="./img/youtube-squared-50.png" alt="YouTube"></a>
-
-            <a href="https://www.instagram.com/fordbrasil/" target="_blank"><img id="icon-footer"
+            <a href="https://www.instagram.com/fordbrasil/" target="_blank"><img class="icon-footer"
                     src="./img/instagram-logo-50.png" alt="Instagram"></a>
         </div>
+        <!-- Texto de direitos autorais -->
         <p style=" color: white;">&copy; 2025 Ford. Todos os direitos reservados.</p>
-        <img src="./img/ford-96.png" alt="">
+        <!-- Logo Ford no rodapé -->
+        <img src="./img/ford-96.png" alt="" style="width:60px;">
     </footer>
+    <!-- Fim do rodapé -->
 </body>
 
 </html>
